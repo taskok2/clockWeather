@@ -1,0 +1,14 @@
+.clock{
+    font-weight: bold;
+    color : #202020;
+    text-shadow: 6px 0px 10px rgba(145, 152, 154, 0.3),
+                0px 6px 10px rgba(145, 152, 154, 0.3),
+                -6px 0px 10px rgba(145, 152, 154, 0.3),
+                0px -6px 10px rgba(145, 152, 154, 0.3);
+}
+.clock .clock__view{
+    font-size: 10vw;
+}
+.clock .clock__type{
+    font-size: 4vw;
+}
