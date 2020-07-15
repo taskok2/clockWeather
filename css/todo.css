@@ -1,0 +1,35 @@
+.wrap__todos{ 
+    position: relative;
+ }
+
+ .js-toDoForm {
+    margin-top: 2vh;
+ }
+
+ .js-toDoForm i {
+    position: absolute;
+    margin-top: 3.3vh;
+    margin-right: 4vw;
+    top : 0;
+    right: 0;
+    cursor: pointer;
+    color : rgba(50, 57, 59, 0.7);
+}
+
+.js-toDoList li {
+    border-bottom: #202020 solid 1px;
+    margin-top: 1vh;
+    padding-bottom: .5vh;
+    font-weight: bold;
+    color : #303030;
+    text-shadow: 6px 0px 6px rgba(145, 152, 154, 0.3),
+    0px 6px 6px rgba(145, 152, 154, 0.3),
+    -6px 0px 6px rgba(145, 152, 154, 0.3),
+    0px -6px 6px rgba(145, 152, 154, 0.3);
+}
+
+.js-toDoList button {
+    background-color: transparent;
+    border:0;
+    cursor: pointer;
+}

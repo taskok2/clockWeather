@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "clock.css";
 @import "greeting.css";
+@import "todo.css";
+
 
 body {
     background-color: #2d3436;
@@ -18,27 +20,33 @@ body {
 input {
     width: 50vw;
     height: 4vh;
+    padding-left:20px;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid rgba(145, 152, 154, 0.3);
-    background-color: transparent;
-    color : rgba(145, 152, 154, 0.7);
+    border-bottom: 1px solid rgba(50, 57, 59, 0.7);
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 2vh;
+    color : rgba(50, 57, 59, 0.7);
+    font-weight: bold;
+    font-size: large;
+}
+input::placeholder{
+    font-style: italic;
+    font-weight: bold;
+    color : rgba(50, 57, 59, 0.7);
 }
 
 input:focus{
     outline: none;
 }
 
-
-
-
 @keyframes fadeIn{
     from{
         opacity: 0;
     }
     to{
-        opacity: 1;
+        opacity: 0.4;
     }
 }
 
@@ -50,4 +58,5 @@ input:focus{
     height: 100%;
     z-index: -1;
     animation: fadeIn 1s linear;
+    opacity: 0.4;
 }
