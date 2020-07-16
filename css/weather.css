@@ -1,0 +1,12 @@
+.weather {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.js-icon {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    margin-left: 10px;
+}

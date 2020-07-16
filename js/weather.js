@@ -1,3 +1,4 @@
+const iconWrap = document.getElementsByClassName('js-icon')[0];
 const weather = document.querySelector('.js-weather');
 
 const COORDS = "coords";
@@ -9,13 +10,18 @@ function getWeather(lat, lng){
             return res.json();
         })
         .then(function (d){
-            console.log(d);
             const temp = d.main.temp;
             const place = d.name;
-            const wth = d.weather[0].main;
+            const icon = d.weather[0].icon;
 
-            weather.innerHTML = `${temp}degree in ${place}
-            <h2>${wth}</h2>`;
+            const img = document.createElement("img");
+            img.src = `http://openweathermap.org/img/wn/${icon}.png`;
+
+            iconWrap.appendChild(img);
+
+            weather.innerHTML = `${temp}° ${place} `;
+
+
         });
 }
 

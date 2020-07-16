@@ -8,8 +8,9 @@
 }
 .clock .clock__view{
     font-size: 10vw;
+    padding-left: 20px;
 }
 .clock .clock__type{
     font-size: 4vw;
+    padding-right: 20px;
 }
-
