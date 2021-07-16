@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Something</title>
+        <script src="https://kit.fontawesome.com/dcb48a855b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/2020/index.css"/>
+    </head>
+    <body>
+        <main class="wrap">
+            <div class="wrap__clock clock">
+                <div class="wrap__weather weather">
+                    <div class='js-weather'></div>
+                    <div class='js-icon'></div>
+                </div>
+                <span class="clock__view"></span>
+                <span class = 'clock__type'></span>
+            </div>
+            <div class="wrap__greetings greetings">
+                <form class="greetings__input">
+                    <input type="text" placeholder="What is your name?">
+                    <i class="fas fa-bookmark"></i>
+                </form>
+                <span class="greetings__msg"></span>
+            </div>
+            <div class="wrap__todos todos">
+                <form class="js-toDoForm">
+                    <input type="text" placeholder="Write a to do">
+                    <i class="fas fa-pencil-alt"></i>
+                </form>
+                <ul class='js-toDoList'></ul>
+            </div>
+        </main>
+        <script src="js/2020/clock.js"></script>
+        <script src="js/2020/greeting.js"></script>
+        <script src="js/2020/todo.js"></script>
+        <script src="js/2020/background.js"></script>
+        <script src="js/2020/weather.js"></script>
+    </body>
+</html>

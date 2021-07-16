@@ -1,0 +1,13 @@
+html,
+html > *,
+body {
+    all : unset;
+}
+
+html{
+    font: 300 16px 'Times New Roman', Times, serif;
+}
+
+.hidden{
+    display:none;
+}

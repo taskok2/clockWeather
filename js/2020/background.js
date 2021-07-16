@@ -4,7 +4,7 @@ const IMG_CNT = 8;
 
 function paintImg(n){
     const image = new Image();
-    image.src = `./images/${n}.jpg`;
+    image.src = `./images/2020/${n}.jpg`;
     image.classList.add("bgImage");
 
     body.appendChild(image);
