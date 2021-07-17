@@ -20,8 +20,6 @@ function getWeather(lat, lng){
             iconWrap.appendChild(img);
 
             weather.innerHTML = `${temp}° ${place} `;
-
-
         });
 }
 

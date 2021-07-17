@@ -13,7 +13,7 @@ const quotes = [
     },
     {
         quote : "We don't see things as they are, we see them as we are.",
-        author : "Ana?s Nin"
+        author : "Anais Nin"
     },
     {
         quote : "Not all of us can do great things. But we can do small things with great love.",
