@@ -1,4 +1,4 @@
-const USER_NAME_KEY = "username";
+const USER_NAME_KEY = "inputname";
 const HIDDEN_VIEW = "hidden";
 
 const greetings = document.querySelector("#greetings");

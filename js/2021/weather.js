@@ -8,13 +8,13 @@ function getWeather(lat, lng){
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric`)
         .then(res=> res.json())
         .then((d)=>{
-            const weather = document.querySelector("#weather span:first-child");
+            const weather = document.querySelector("#weather span:last-child");
             const icon = d.weather[0].icon;            
             const img = document.createElement("img");
             img.src = `http://openweathermap.org/img/wn/${icon}.png`;
             weather.appendChild(img);
 
-            const city = document.querySelector("#weather span:last-child");
+            const city = document.querySelector("#weather span:first-child");
             const temp = d.main.temp;
             const place = d.name;
 

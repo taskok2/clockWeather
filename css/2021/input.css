@@ -1,0 +1,29 @@
+form{
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+}
+form input{
+    height: 3rem;
+    width: 55vw;
+    padding: .5rem 2rem;
+    border-radius: 10rem;
+    background-color: var(--background-reverse);
+    transition: all .5s ease;
+}
+
+form input:focus{
+    background-color: var(--background-base);
+    color: var(--base-reverse);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+form input:focus::placeholder{
+    color : var(--background-light);
+    font-size:1rem;
+}
+
+form input::placeholder{
+    color : var(--gray);
+}

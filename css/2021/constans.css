@@ -1,0 +1,8 @@
+:root{
+    --base-color : #f0f6fe;
+    --base-reverse : #303030;
+    --background-base: rgba(240, 246, 254, .7);
+    --background-light: rgba(240, 246, 254, .9);
+    --gray : rgba(240, 246, 254, .6);
+    --background-reverse : rgba(240, 246, 254, .2);
+}

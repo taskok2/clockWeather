@@ -1,1 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import "./constans.css";
 @import "./index.css";
+@import "./background.css";
+@import "./clock.css";
+@import "./input.css";
+@import "./list.css";
+@import "./quotes.css";
+@import "./weather.css";

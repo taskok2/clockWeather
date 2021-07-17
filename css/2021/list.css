@@ -1,0 +1,32 @@
+#todo-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 40vw;
+}
+
+.todo-list__item {
+    padding: 1rem 0;
+    background-color: var(--background-base);
+    color :  var(--base-reverse);
+    position: relative;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list__item:hover{
+    background-color: var(--background-reverse);
+    color : var(--base-color);
+}
+
+.todo-list__item button{
+   position: absolute;
+   right: 1.2rem;
+   cursor: pointer;
+}
+
+.todo-list__item span{
+    text-align: center;
+}

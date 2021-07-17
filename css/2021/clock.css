@@ -1,0 +1,28 @@
+#clock-wrap{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 2rem 0;
+}
+
+#clock{
+    font-size: 6rem;
+}
+
+#clock-notation-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+#clock-notation-wrap i{
+    cursor: pointer;
+}
+
+#clock-notation-wrap h4{
+    font-size: 1.3rem;
+}
+

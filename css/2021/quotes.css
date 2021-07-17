@@ -1,0 +1,17 @@
+#quote{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+    text-align: center;
+    width: 45vw;
+    font-style: italic;
+}
+
+#quote span:last-child{
+    margin-top: 1rem;
+    opacity: .7;
+    font-size: .8rem;
+}
